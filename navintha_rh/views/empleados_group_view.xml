@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<!-- <field name="name">hr.employee_search_groupby.inherited</field>
+		<record id="empleados_seach_groupby" model="ir.ui.view">
+			<field name="model">hr.employee</field>
+			<field name="arch" type="xml">
+					<xpath expr="//search" position="inside">
+						<field name="context">{'group_by':'department_id'}</field>
+					</xpath>
+			</field> -->
+		<record id="empleados_deparmanentos_groupby" model="ir.actions.act_window">
+           <field name="name">Departamentos</field>
+           <field name="res_model">hr.employee</field>
+           <field name="context">{'group_by':'department_id'}</field>
+		</record>
+		<!-- </record> -->
+	</data>
+</openerp>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<record id="indexol_auditoria_fields_view" model="ir.ui.view">
+			<field name="name">indexol.fiels_view.inherit</field>
+			<field name="model">mgmtsystem.audit</field>
+			<field name="inherit_id" ref="mgmtsystem_audit.view_mgmtsystem_audit_form"></field>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='date']" position="after">
+					<field name="x_indexol_auditoriafin"></field>
+					<field name="x_indexol_tipoauditoria"></field>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</openerp>

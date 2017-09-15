@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <!-- Main employees -->
+        <menuitem id="rh_menuitem" name="Recursos Humanos" parent="main_navintha_menu" />
+        <!-- Agregado del item de puestos -->
+
+        <record model="ir.actions.act_window" id="puestos_rh_action">
+            <field name="name">Puestos</field>
+            <field name="res_model">hr.job</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Crear un puesto
+                </p>
+            </field>
+        </record>
+        
+        <menuitem id="perfiles_puestos_item"  name="Perfiles de puestos" parent="rh_menuitem"/>
+
+        <menuitem id="hr_job_item" name="Puestos" parent="perfiles_puestos_item" action="puestos_rh_action"/>
+
+        <!-- Agregado del item de empleados -->
+        <!-- Item padre empleados -->
+        <menuitem id="empleados_rh_item" name="Empleados" parent="rh_menuitem"></menuitem>
+
+<!-- ************************************************************************************************************* -->
+	   <!-- Expedientes -->
+       <record model="ir.actions.act_window" id="expedientes_hr_action">
+            <field name="name">Expedientes</field>
+            <field name="res_model">hr.employee</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Registrar un expediente
+                </p>
+            </field>
+            <!-- No se pueden tener dos context, agrupar los necesarios asi..... -->
+            <field name="context">{'group_by':'department_id'}</field>
+
+        </record>
+        <!-- Recordar poner el id diferente -->
+        <!-- Menuitem de expedientes -->
+        <menuitem id="expedientes_empleados_item" name="Expedientes" parent="empleados_rh_item" action="expedientes_hr_action"/>
+      
+<!-- **************************************************************************************************************** --> 
+
+       <record model="ir.actions.act_window" id="permisos_empleados_action">
+            <field name="name">Permisos y ausencias</field>
+            <field name="res_model">hr.holidays</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">calendar,tree,form</field>
+        </record>
+        <!-- Recordar poner el id diferente -->
+        <!-- Menuitem de expedientes -->
+        <menuitem id="permisos_empleados_item" name="Permisos y ausencias" parent="empleados_rh_item" action="permisos_empleados_action"/>
+      
+<!-- **************************************************************************************************************** --> 
+
+       <record model="ir.actions.act_window" id="reclutamiento_empleados_action">
+            <field name="name">Reclutamiento</field>
+            <field name="res_model">hr.applicant</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">kanban,tree,form</field>
+        </record>
+        <!-- Recordar poner el id diferente -->
+        <!-- Menuitem de expedientes -->
+        <menuitem id="reclutamiento_empleados_item" name="Reclutamiento" parent="empleados_rh_item" action="reclutamiento_empleados_action"/>
+      
+<!-- **************************************************************************************************************** -->  
+
+       <record model="ir.actions.act_window" id="reclutamiento_empleados_action">
+            <field name="name">Reclutamiento</field>
+            <field name="res_model">hr.applicant</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">kanban,tree,form</field>
+        </record>
+        <!-- Recordar poner el id diferente -->
+        <!-- Menuitem de expedientes -->
+        <menuitem id="reclutamiento_empleados_item" name="Reclutamiento" parent="empleados_rh_item" action="reclutamiento_empleados_action"/>
+      
+<!-- **************************************************************************************************************** -->  
+
+        <!-- Agregando menu Item de Capacitación interna -->
+        <!-- Main item capacitacion interna -->
+        <menuitem id="capacitacion_rh_item" name="Capacitación interna" parent="rh_menuitem"></menuitem>
+
+        <!-- Item de Detección de necesidades de capacitación -->
+        <record model="ir.actions.act_window" id="deteccioncapacitacion_capacitacion_action">
+            <field name="name">Detección de necesidades de capacitación</field>
+            <field name="res_model">survey.survey</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{'search_default_title':'necesidades'}</field>
+        </record>
+        
+        <menuitem id="necesidadescapacitacion_capacitacion_item" name="Detección de necesidades de capacitación" parent="capacitacion_rh_item" action="deteccioncapacitacion_capacitacion_action"></menuitem>
+
+<!-- *-************************************************************************ -->
+
+       <record model="ir.actions.act_window" id="plancapacitacion_capacitacion_action">
+            <field name="name">Plan de capacitación</field>
+            <field name="res_model">employee.orientation</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <!-- Menuitem plan -->
+        <menuitem id="capacitacion_capacitacion_item" name="Plan de capacitación" parent="capacitacion_rh_item" action="plancapacitacion_capacitacion_action"/>
+<!-- *-************************************************************************ -->
+
+       <record model="ir.actions.act_window" id="openacademy_capacitacion_action">
+            <field name="name">Cursos de capacitación</field>
+            <field name="res_model">openacademy.course</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <!-- Menuitem de cursos -->
+        <menuitem id="openacademy_capacitacion_item" name="Cursos de capacitación" parent="capacitacion_rh_item" action="openacademy_capacitacion_action"/>
+      
+	<record model="ir.actions.act_window" id="openacademysesiones_capacitacion_action">
+            <field name="name">Sesiones de capacitación</field>
+            <field name="res_model">openacademy.session</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">calendar,tree,,graph,form</field>
+        </record>
+        <!-- Menuitem de Sesiones -->
+        <menuitem id="openasesiones_capacitacion_item" name="Sesiones de capacitación" parent="capacitacion_rh_item" action="openacademysesiones_capacitacion_action"/>
+<!-- **************************************************************************************************************** -->
+       <record model="ir.actions.act_window" id="evalcapacitadores_capacitacion_action">
+            <field name="name">Evaluación de capacitadores</field>
+            <field name="res_model">survey.survey</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{'search_default_title':'capacitacitador'}</field>
+        </record>
+        <!-- Menuitem de  -->
+        <menuitem id="evalcapacitadores_capacitacion_item" name="Evaluación de capacitadores" parent="capacitacion_rh_item" action="evalcapacitadores_capacitacion_action"/>
+      
+<!-- **************************************************************************************************************** -->         
+
+        <!-- Menu item de gestion del conocimiento -->
+        <record model="ir.actions.act_window" id="rescapacitacion_capacitacion_action">
+            <field name="name">Control y resultados de capacitación</field>
+            <field name="res_model">survey.user_input</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{'group_by': 'survey_id'}</field>
+        </record>
+
+        <menuitem id="rescapacitacion_capacitacion_item" name="Control y resultados de capacitación" parent="capacitacion_rh_item" action="rescapacitacion_capacitacion_action"></menuitem>
+
+<!-- **************************************************************************************************************** -->
+        <!-- Evaluacion del desempeño -->
+        <record model="ir.actions.act_window" id="evaluaciones_list_action">
+            <field name="name">Efectividad de la capacitación </field>
+            <field name="res_model">survey.user_input</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{'group_by': 'survey_id', 'search_default_title': 'capa'}</field>
+        </record>
+        <menuitem id="efeccapacitacion_capacitacion_item" name="Efectividad de la Capacitación" parent="capacitacion_rh_item" action="evaluaciones_list_action"></menuitem>
+<!-- **************************************************************************************************************** -->
+        <!-- Gestión del conocimiento -->
+        <record model="ir.actions.act_window" id="conocimiento_capacitacion_list_action">
+            <field name="name">Gestión del conocimiento</field>
+            <field name="res_model">document.page</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="conocimiento_capacitacion_item" name="Gestión del conocimiento" parent="capacitacion_rh_item" action="conocimiento_capacitacion_list_action"></menuitem>
+
+<!-- **************************************************************************************************************** -->
+        <!-- menu item Evaluacion del desempeño -->
+        <menuitem id="desempeno_hr_item" name="Evaluación del desempeño" parent="rh_menuitem"></menuitem>
+
+        <record model="ir.actions.act_window" id="planevaluacion_evaluacion_list_action">
+            <field name="name">Plan de evaluación del desempeño</field>
+            <field name="res_model">calendar.event</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">calendar,tree,form</field>
+        </record>
+        <menuitem id="planevaluacion_evaluacion_item" name="Plan de evaluación del desempeño" parent="desempeno_hr_item" action="planevaluacion_evaluacion_list_action"></menuitem>
+
+<!-- **************************************************************************************************************** -->
+        <record model="ir.actions.act_window" id="evaluacion_desempeno_action">
+            <field name="name">Evaluación del desempeño</field>
+            <field name="res_model">survey.survey</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{'search_default_title': 'desempeño'}</field>
+        </record>
+        <menuitem id="evaluacion_desempeno_item" name="Evaluación del desempeño" parent="desempeno_hr_item" action="evaluacion_desempeno_action"></menuitem>
+
+<!-- **************************************************************************************************************** -->
+        <record model="ir.actions.act_window" id="resevaluacion_desempeno_action">
+            <field name="name">Resultados de la evaluación</field>
+            <field name="res_model">survey.user_input</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{'group_by':'survey_id'}</field>
+        </record>
+        <menuitem id="resevaluacion_desempeno_item" name="Resultado de la evaluación" parent="desempeno_hr_item" action="resevaluacion_desempeno_action"></menuitem>
+
+<!-- **************************************************************************************************************** -->
+        <menuitem id="encclimalaboral_item" name="Encuesta de clima laboral" parent="rh_menuitem"></menuitem>
+
+        <record model="ir.actions.act_window" id="encclimalaboral_climalaboral_action">
+            <field name="name">Encuesta de clima laboral</field>
+            <field name="res_model">survey.survey</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{'search_default_title':'clima'}</field>
+        </record>
+        <menuitem id="climalaboral_clencuesta" name="Encuesta" parent="encclimalaboral_item" action="encclimalaboral_climalaboral_action"></menuitem>
+
+    </data>
+</openerp>

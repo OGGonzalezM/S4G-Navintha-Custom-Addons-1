@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<record id="empleados_encuestas_field_view" model="ir.ui.view">
+			<field name="name">hr.employee_encuestas.inherit</field>
+			<field name="model">hr.employee</field>
+			<field name="inherit_id" ref="hr.view_employee_form"></field>
+			<field name="arch" type="xml">
+				<notebook position="inside">
+					<page string="Encuestas realizadas al empleado">
+						<field name="x_navintha_empleadosencuestas"/>
+					</page>
+				</notebook>
+			</field>
+		</record>
+	</data>
+</openerp>

@@ -1,0 +1,47 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* navintha_campos_auditoria
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-07 21:31+0000\n"
+"PO-Revision-Date: 2017-09-07 21:31+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: navintha_campos_auditoria
+#: model:ir.model,name:navintha_campos_auditoria.model_mgmtsystem_audit
+msgid "Audit"
+msgstr "Auditoría"
+
+#. module: navintha_campos_auditoria
+#: model:ir.model.fields,field_description:navintha_campos_auditoria.field_mgmtsystem_audit_x_indexol_confirmarasistencia
+msgid "Confirm assistance"
+msgstr "Confirmar asistencia"
+
+#. module: navintha_campos_auditoria
+#: selection:mgmtsystem.audit,x_indexol_tipoauditoria:0
+msgid "External"
+msgstr "Externa"
+
+#. module: navintha_campos_auditoria
+#: model:ir.model.fields,field_description:navintha_campos_auditoria.field_mgmtsystem_audit_x_indexol_auditoriafin
+msgid "End date"
+msgstr "Fecha fín"
+
+#. module: navintha_campos_auditoria
+#: selection:mgmtsystem.audit,x_indexol_tipoauditoria:0
+msgid "Internal"
+msgstr "Interna"
+
+#. module: navintha_campos_auditoria
+#: model:ir.model.fields,field_description:navintha_campos_auditoria.field_mgmtsystem_audit_x_indexol_tipoauditoria
+msgid "Type of audit"
+msgstr "Tipo de auditoría"
+

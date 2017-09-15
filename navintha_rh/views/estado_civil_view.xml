@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<record id="estadocivil_field_view" model="ir.ui.view">
+			<field name="name">hr.employee_estadocivil.inherited</field>
+			<field name="model">hr.employee</field>
+			<field name="inherit_id" ref="hr.view_employee_form"></field>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='marital']" position="replace">
+					<field name="estadocivil"></field>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</openerp>

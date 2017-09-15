@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<!-- Main item de recursos financieros -->
+		<menuitem id="main_rf_item" name="Recursos financieros" parent="main_navintha_menu"></menuitem>
+		<!-- Item de planeación de presupuesto -->
+		<record model="ir.actions.act_window" id="planeacionpresupuesto_rfinancieros_action">
+			<field name="name">Planeación de presupuesto</field>
+			<field name="res_model">crossovered.budget</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+		<p class="oe_view_nocontent_create text-align-center text-justify">
+            	    <p>Clic para crear un nuevo prespuesto</p>
+		    <p>Un presupuesto es una previsión de ingresos y / o gastos que su empresa espera por un período en el futuro. Un presupuesto se define en algunas cuentas financieras y / o cuentas analíticas (que puede representar proyectos, departamentos, categorías de productos, etc.)</p>
+		    <p>Al mantener un registro de dónde va su dinero, puede ser menos propenso a gastar en exceso, y más probabilidades de cumplir con sus metas financieras. El pronóstico es un presupuesto detallando los ingresos esperados por cuenta analítica y vigila su evolución a partir de los datos reales liberados durante ese período.</p>
+            	</p>
+            </field>
+		</record>
+		<menuitem id="planeacionpresupuesto_rf_item" name="Planeación de presupuesto" parent="main_rf_item" action="planeacionpresupuesto_rfinancieros_action"></menuitem>
+
+<!-- **************************************************************************************************************** -->
+		<record model="ir.actions.act_window" id="compras_rfinancieros_action">
+			<field name="name">Compras</field>
+			<field name="res_model">purchase.order</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Agregar una nueva orden de compra
+                </p>
+            </field>
+		</record>
+		<menuitem id="compras_rfinancieros_item" name="Compras" parent="main_rf_item" action="compras_rfinancieros_action"></menuitem>
+	</data>
+</openerp>

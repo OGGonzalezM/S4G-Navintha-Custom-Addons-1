@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<record id="evaluaciones_empleados_field_view" model="ir.ui.view">
+			<field name="name">surveys.evaluaciones_empleados.inherited</field>
+			<field name="model">survey.survey</field>
+			<field name="inherit_id" ref="survey.survey_form">
+			</field>
+			<field name="arch" type="xml">
+				<notebook position="inside">
+					<page string="Empleados evaluados">
+						<field name="x_navintha_empleados_evaluados"/>
+					</page>
+				</notebook>
+			</field>
+		</record>
+	</data>
+</openerp>

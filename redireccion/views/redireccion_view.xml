@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<record id="redireccionado_indexol_action"  model="ir.actions.act_url">
+			<field name="name">Redirección</field>
+			<field name="type">ir.actions.act_url</field>
+			<field name="target">new</field>
+			<field name="url">http://www.odoo.com</field>
+		</record>
+
+		<menuitem id="redireccion_main" name="Redirección"></menuitem>
+
+		<menuitem id="child_redireccion_item" name="Redireccionando ..." parent="redireccion_main" action="redireccionado_indexol_action">
+		    <!-- <i class="fa-li fa fa-spinner fa-spin"></i>-->
+		</menuitem>
+	</data>
+</openerp>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record id="emplo_view" model="ir.ui.view">
+            <field name="name">hr.employee_emplo_view.inherited</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"></field>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='address_id']" position="before">
+                    <field name="x_numempleado"/>
+                </xpath>
+                <xpath expr="//field[@name='user_id']" position="after">
+                    <field name="x_contratacion"/>
+                    <field name="x_antiguedad"/> dias
+                    <field name="x_observaciones"/>
+                </xpath>
+                <xpath expr="//field[@name='address_home_id']" position="after">
+                    <field name="x_perfilacademico"/>
+                </xpath>
+		<notebook position="inside">
+			<page string="Documentación" class="text-right">
+			    <div class="col-md-3">
+					<label for="x_navintha_documentos_actanacimiento" ></label>
+					<field name="x_navintha_documentos_actanacimiento"/>
+					<br />
+
+					<label for="x_navintha_documentos_ine" ></label>
+					<field name="x_navintha_documentos_ine"/>
+					<br />
+
+					<label for="x_navintha_documentos_comprobantedomicilio" />
+					<field name="x_navintha_documentos_comprobantedomicilio"/>
+					<br />
+
+					<label for="x_navintha_documentos_curp" />
+					<field name="x_navintha_documentos_curp"/>
+					<br />
+
+					<label for="x_navintha_documentos_cv"/>
+					<field name="x_navintha_documentos_cv"/>
+					<br />
+
+					<label for="x_navintha_documentos_comprobanteestudios" />
+					<field name="x_navintha_documentos_comprobanteestudios"/>
+					<br />
+
+			    </div>
+					<div class="col-md-3">
+						<label for="x_navintha_documentos_contrato"></label>
+						<field name="x_navintha_documentos_contrato"></field>
+						<br />
+						
+						<label for="x_navintha_documentos_contratoconfidencial"></label>
+						<field name="x_navintha_documentos_contratoconfidencial"></field>
+						<br />
+						
+						<label for="x_navintha_documentos_cedulaprofesional"></label>
+						<field name="x_navintha_documentos_cedulaprofesional"></field>
+						<br />
+						
+						<label for="x_navintha_documentos_rfc"></label>
+						<field name="x_navintha_documentos_rfc"></field>
+						<br />
+						
+						<label for="x_navintha_documentos_cartasrecomendacion"></label>
+						<field name="x_navintha_documentos_cartasrecomendacion"></field>
+						<br />
+						
+						<label for="x_navintha_documentos_evaluacion"></label>
+						<field name="x_navintha_documentos_evaluacion"></field>
+						<br />
+					</div>
+
+			</page>
+		</notebook>
+
+            </field>
+        </record>
+    </data>
+</openerp>

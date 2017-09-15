@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<!-- Main item de proveedores -->
+		<menuitem id="main_proveedores_item" name="Proveedores" parent="main_navintha_menu"></menuitem>
+		<!-- Item de listado de proveedores -->
+		<record model="ir.actions.act_window" id="listado_proveedores_action">
+			<field name="name">Lista de proveedores</field>
+			<field name="res_model">res.partner</field>
+			<field name="view_type">form</field>
+			<field name="view_form">kanban,tree,form</field>
+			<field name="context">{'search_default_supplier':'True'}</field>
+		</record>
+		<menuitem id="listado_proveedores_item" name="Proveedores" parent="main_proveedores_item" action="listado_proveedores_action"></menuitem>
+
+		<!-- Item de evaluación de proveedores -->
+		<record model="ir.actions.act_window" id="evaluacion_proveedores_action">
+			<field name="name">Evaluaciones de proveedores</field>
+			<field name="res_model">survey.survey</field>
+			<field name="view_type">form</field>
+			<field name="view_form">tree,form</field>
+			<field name="help" type="html">
+				<p class="oe_view_nocontent_create">
+					Agregar una evaluación para los proveedores
+				</p>
+			</field>
+			<field name="context">{'search_default_title':'proveedores'}</field>
+		</record>
+		<menuitem id="evaluacion_proveedores_item" name="Evaluaciones de proveedores" parent="main_proveedores_item" action="evaluacion_proveedores_action"></menuitem>
+	</data>
+</openerp>

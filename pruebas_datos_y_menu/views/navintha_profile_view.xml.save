@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+<!--Acciones del menuitem de navintha -->
+		<record model="ir.ui.view" id="company_profile_form_view">
+			<field name="name">company_profile.form.view</field>
+			<field name="model">res.company</field>
+			<field name="arch" type="xml">
+				<form string="Datos de la compañia" class="oe_form_configuration">
+					<sheet>
+						<group>
+							<field name="name"></field>
+							<field name="x_navintha_mision"></field>
+							<field name="x_navintha_vision"></field>
+							<field name="x_navintha_valores"></field>
+						</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<record model="ir.actions.act_window" id="company_profile_action">
+			<field name="name">Datos de la compania</field>
+			<field name="res_model">res.company</field>
+			<field name="view_type">form</field>
+		</record>
+
+<!--Acciones del modulo de hr -->
+		<record model="ir.actions.act_window" id="employee_list_action">
+            <field name="name">Employee</field>
+            <field name="res_model">hr.employee</field>
+        	    <field name="view_type">form</field>
+	            <field name="view_mode">kanban,tree,form</field>
+        	    <field name="help" type="html">
+	                <p class="oe_view_nocontent_create">Create the first employee
+                	</p>
+        	    </field>
+	        </record>
+
+		<!-- Creacion de la barra de menu  -->
+		<menuitem id="main_navintha_menu" name="Navintha"/>
+
+		<menuitem id="profile_menu" name="Navintha" parent="main_navintha_menu" action="company_profile_action"/>
+		<menuitem id="hr_menuitem" name="HR" parent="main_navintha_menu" action="hr_job_action"/>
+
+	</data>
+</openerp>

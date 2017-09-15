@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+<!--Acciones del menuitem de navintha -->
+		<record model="ir.ui.view" id="company_profile_form_view">
+			<field name="name">company_profile.form.view</field>
+			<field name="model">company.profile</field>
+			<field name="arch" type="xml">
+				<form string="Datos de la compañia" class="oe_form_configuration">
+					<sheet>
+						<group>
+							<field name="name"></field>
+							<field name="x_navintha_mision"></field>
+							<field name="x_navintha_vision"></field>
+							<field name="x_navintha_valores"></field>
+							<field name="x_navintha_politicadecalidad"/>
+							<field name="x_navintha_objetivosdecalidad"/>
+						</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<!-- Creacion de la barra de menu  -->
+		<menuitem id="main_navintha_menu" name="PRUEBAS"/>
+
+		<menuitem id="profile_menu" name="Pruebas" parent="main_navintha_menu"/>
+
+
+		<record model="ir.actions.act_window" id="identidad_pruebas_action">
+			<field name="name">Identidad Pruebas</field>
+			<field name="res_model">company.profile</field>
+			<field name="view_type">form</field>
+		</record>
+		<menuitem id="identidad_pruebas" name="Identidad" parent="profile_menu" action="identidad_pruebas_action"></menuitem>
+
+<!-- Opcion para organigrama -->
+		<record id="organigrama_indexol_action" model="ir.actions.act_url">
+            	    <field name="name">Building Page</field>
+    	            <field name="type">ir.actions.act_url</field>
+            	    <field name="target">new</field>
+                   <field name="url">/deptchart/web/?#action=org_chart_dept.depthierarchy</field>
+        	</record>
+		<menuitem id="organigrama_indexol" name="Organigrama" parent="profile_menu" action="organigrama_indexol_action"></menuitem>
+
+	</data>
+</openerp>
+

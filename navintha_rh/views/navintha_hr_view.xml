@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record id="navintha_hr_form_view" model="ir.ui.view">
+            <field name="name">hr.job_navintha_view.inherited</field>
+            <field name="model">hr.job</field>
+            <field name="inherit_id" ref="hr.view_hr_job_form"></field>
+            <field name="arch" type="xml">
+		<xpath expr="//field[@name='no_of_recruitment']" position="after">
+		    <field name="x_navintha_plantillaminimanecesaria"/>
+		</xpath>
+                <xpath expr="//field[@name='x_navintha_plantillaminimanecesaria']" position="after">
+		    <div class="row">
+			<div class="col-md-6">
+				<label for="x_navintha_fechadeelaboracion">Fecha de elaboración</label>
+	                        <field name="x_navintha_fechadeelaboracion"></field>
+                   	</div>
+			<div class="col-md-6">
+		        	<label for="x_navintha_fechadeaprovacion">Fecha de aprovación</label>
+	                        <field name="x_navintha_fechadeaprovacion"></field>
+			</div>
+		    </div>
+                </xpath>
+                <xpath expr="//field[@name='description']" position="after">
+                    <notebook class="container">
+                            <page string="Relaciones del puesto">
+                                <label for="x_navintha_propositodelpuesto">Propósito del puesto</label>
+                                <field name="x_navintha_propositodelpuesto"></field>
+                                
+                                <label for="x_navintha_relacionesinternas"></label>
+                                <field name="x_navintha_relacionesinternas" options="{'no_quick_create':True}">
+                                    <tree>
+                                        <field name="name"></field>
+                                        <field name="relacion"></field>
+                                    </tree>
+                                </field>
+				
+				<label for="x_navintha_relacionesexternas"></label>
+				<field name="x_navintha_relacionesexternas">
+                                    <tree>
+                                        <field name="name" />
+					<field name="relacionext" />
+                                    </tree>
+                                </field>
+                            </page>
+
+                            <page string="Responsabilidades">
+                                <div>
+                                    <field name="x_navintha_responsabilidades">
+                                        <tree>
+                                            <field name="name"></field>
+                                            <field name="x_navintha_resfrecuencia"></field>
+                                            <field name="x_navintha_respdescripcion"></field>
+                                            <!--field name="x_navintha_meta"></field-->
+                                        </tree>
+                                    </field>
+                                </div>
+				
+                                <label for="x_navintha_ltd_desicion">Libertad para tomar desiciones</label>
+                                <field name="x_navintha_ltd_desicion"></field><br/>
+
+                                <label for="x_navintha_condicionesdeltrabajo">Condiciones del trabajo</label>
+                                <field name="x_navintha_condicionesdeltrabajo"></field>
+                            </page>
+                            <page string="Perfil del puesto">
+                                <label for="x_navintha_edad">Edad</label>
+                                <field name="x_navintha_edad"></field>
+				<div class="">
+	                                <label for="x_navintha_escolaridad"></label>
+                                	<field name="x_navintha_escolaridad"></field>
+				</div>
+				<br /> <br />
+                                <label for="x_navintha_experiencia">Experiencia</label>
+                                <field name="x_navintha_experiencia"></field>
+
+                                <label for="x_navintha_disponibilidadviajar">Disponibilidad para viajar</label>
+                                <field name="x_navintha_disponibilidadviajar"></field>
+                                <br />
+                                <label for="x_navintha_disponibilidadcambioresidencia">Disponibilidad para cambio de residencia</label>
+                                <field name="x_navintha_disponibilidadcambioresidencia"></field>
+                                <br />
+                            </page>
+			    <page string="Competencias">
+				    <field name="x_navintha_skills" >
+                        <field name="name"></field>
+                        <field name="x_navintha_descripcioncompetencia"></field>
+                    </field>
+			    </page>
+
+			    <page string="Equipo asignable">
+    				<field name="x_posibleequipo_navintha">
+    				</field>
+			    </page>
+
+			    <page string="Indicadores del puesto">
+				<field name="x_navintha_indicadorespuesto">
+				    <tree>
+					    <field name="name"/>
+					    <field name="category_id"/>
+				    </tree>
+				</field>
+			    </page>
+                
+                	    <page string="Encuestas del puesto">
+                    		<field name="x_navintha_encuestas_puestos"></field>
+                	    </page>
+                    
+                    </notebook>
+                </xpath>
+            </field>
+        </record>
+  </data>
+</openerp>
+

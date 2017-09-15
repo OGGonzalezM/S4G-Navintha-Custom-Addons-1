@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		 <!-- Quality Management System -->
+        <record model="ir.actions.act_window" id="qms_manualcalidad_action">
+            <field name="name">Manual de calidad</field>
+            <field name="res_model">document.page</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{'search_default_name':'calidad'}</field>
+        </record>
+
+        <!-- Quality Management System  main Item-->
+        <menuitem id="qms_item" name="Sistema de Gestión" parent="main_navintha_menu"></menuitem>
+        
+        <!-- Quality Management System  primer item-->
+        <menuitem id="qms_manualcalidad_item" name="Manual de calidad" parent ="qms_item" action="qms_manualcalidad_action"></menuitem>
+
+        <!-- Quality Management System  Control de procesos-->
+<!-- **************************************************************************************************** -->
+        <!-- Item padre de Control de procesos -->
+        <record model="ir.actions.act_window" id="qms_controlprocesos_action">
+            <field name="name">Control de procesos</field>
+            <field name="res_model">document.page</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Procedimientos de su sistema de gestión.
+                </p>
+            </field>
+            <field name="context">{'search_default_name':'procesos'}</field>
+        </record>
+        <menuitem id="controlprocesos_qms" name="Control de procesos" parent="qms_item" action="qms_controlprocesos_action"></menuitem>
+<!-- **************************************************************************************************** -->
+        <!-- QMS Item de No confirmidades -->
+        <record model="ir.actions.act_window" id="qms_noconformidades_action">
+            <field name="name">No conformidades</field>
+            <field name="res_model">mgmtsystem.nonconformity</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">kanba,tree,form</field>
+        </record>
+        <!-- Padre de no conformidades -->
+        <menuitem id="noconformidades_qms" name="No conformidades" parent="qms_item"></menuitem>
+        <menuitem id="noconformidades_item" name="No conformidades" parent="noconformidades_qms" action="qms_noconformidades_action"></menuitem>
+<!-- **************************************************************************************************** -->
+
+        <record model="ir.actions.act_window" id="quejas_qms_action">
+            <field name="name">Manejo de quejas</field>
+            <field name="res_model">mgmtsystem.claim</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="quejas_qms_item" name="Manejo de quejas" parent="noconformidades_qms" action="quejas_qms_action"></menuitem>
+
+<!-- **************************************************************************************************** -->
+
+        <!-- QMS Acciones Correctivas -->
+        <record model="ir.actions.act_window" id="qms_accionescorrectivas_action">
+            <field name="name">Acciones Correctivas</field>
+            <field name="res_model">mgmtsystem.action</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">kanban,tree,form</field>
+        </record>
+        <menuitem id="qms_accionescorrectivas" name="Acciones Correctivas" parent="qms_item" action="qms_accionescorrectivas_action"></menuitem>
+
+<!-- **************************************************************************************************** -->
+        <!-- Audit main item -->
+        <menuitem id="qms_auditorias" name="Auditorias" parent="qms_item"></menuitem>
+
+        <!-- QMS Auditorias Internas -->
+        <record model="ir.actions.act_window" id="programaauditorias_qms_action">
+            <field name="name">Programa de auditorias</field>
+            <field name="res_model">mgmtsystem.audit</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">calendar,tree,form</field>
+        </record>
+        <menuitem id="progauditorias_qms_item" name="Auditorias Internas" parent="qms_auditorias" action="programaauditorias_qms_action"></menuitem>
+<!-- **************************************************************************************************** -->
+        <record model="ir.actions.act_window" id="planauditoria_qms_action">
+            <field name="name">Plan de auditoría</field>
+            <field name="res_model">mgmtsystem.audit</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="planauditoria_qms_item" name="Plan de auditoría" parent="qms_auditorias" action="planauditoria_qms_action"></menuitem>
+
+<!-- **************************************************************************************************** -->
+        <record model="ir.actions.act_window" id="evalauditinternos_qms_action">
+            <field name="name">Evaluación de auditores internos</field>
+            <field name="res_model">survey.survey</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{'search_default_title':'auditores'}</field>
+        </record>
+        <menuitem id="evalauditinternos_qms_item" name="Evaluación de auditores internos" parent="qms_auditorias" action="evalauditinternos_qms_action"></menuitem>
+<!-- **************************************************************************************************** -->
+
+
+        <!-- QMS Revisiones de direccion-->
+        <record model="ir.actions.act_window" id="qms_revisionesdireccion_action">
+            <field name="name">Revisiones de Dirección</field>
+            <field name="res_model">mgmtsystem.review</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="qms_revisionesdireccion" name="Revisiones de dirección" parent="qms_item" action="qms_revisionesdireccion_action"></menuitem>
+
+        <!-- QMS Gestion de riesgos -->
+        <record model="ir.actions.act_window" id="qms_gestionderiesgos_action">
+            <field name="name">Gestión de riesgos</field>
+            <field name="res_model">mgmtsystem.hazard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="qms_gestionderiesgos" name="Gestión de riesgos" parent="qms_item" action="qms_gestionderiesgos_action"></menuitem>
+	</data>
+</openerp>

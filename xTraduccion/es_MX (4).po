@@ -1,0 +1,112 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* emplo_navintha
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-07 21:33+0000\n"
+"PO-Revision-Date: 2017-09-07 21:33+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_actanacimiento
+msgid "Birth certificate"
+msgstr "Acta de nacimiento"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_antiguedad
+msgid "Antiquity"
+msgstr "Antigüedad"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_curp
+msgid "CURP"
+msgstr "CURP"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_comprobantedomicilio
+msgid "Proof of address"
+msgstr "Comprobante de domicilio"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_comprobanteestudios
+msgid "Proof of studies"
+msgstr "Comprobante de estudios"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_cv
+msgid "Curriculum vitae"
+msgstr "Currículum Vítae"
+
+#. module: emplo_navintha
+#: model:ir.ui.view,arch_db:emplo_navintha.emplo_view
+msgid "Documentation"
+msgstr "Documentación"
+
+#. module: emplo_navintha
+#: model:ir.model,name:emplo_navintha.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_contratacion
+msgid "Date of hire"
+msgstr "Fecha de Contratación"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_ine
+msgid "INE"
+msgstr "INE"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_numempleado
+msgid "Employee number"
+msgstr "Número de Empleado"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_numempleado
+msgid "Employee Control Number"
+msgstr "Número de control del empleado"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_observaciones
+msgid "Observations"
+msgstr "Observaciones"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_observaciones
+msgid "Observations on the employee"
+msgstr "Observaciones en el empleado"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_perfilacademico
+msgid "Academic profile"
+msgstr "Perfil Académico"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_actanacimiento
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_comprobantedomicilio
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_comprobanteestudios
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_curp
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_cv
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_ine
+msgid "If the employee presented this document, check the box"
+msgstr "Si el empleado presentó este documento marque la casilla"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_fechaactual
+msgid "X current date"
+msgstr "X fecha actual"
+
+#. module: emplo_navintha
+#: model:ir.ui.view,arch_db:emplo_navintha.emplo_view
+msgid "days"
+msgstr "dias"
+

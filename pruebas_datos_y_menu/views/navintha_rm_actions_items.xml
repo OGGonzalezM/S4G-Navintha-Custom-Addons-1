@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<!-- Menu item en el menu padre -->
+		<menuitem id="rm_item" name="Recursos Materiales" parent="main_navintha_menu"></menuitem>
+		
+		<!-- RM Inventario -->
+		<record model="ir.actions.act_window" id="rm_inventario_action">
+			<field name="name">Inventario</field>
+			<field name="res_model">product.product</field>
+			<field name="view_type">form</field>
+			<field name="view_form">tree,form</field>
+			<field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Pulse aquí para añadir.
+                </p>
+            </field>
+		</record>
+		<menuitem id="rm_inventario" name="Inventario" parent="rm_item" action="rm_inventario_action"></menuitem>
+<!-- ******************************************************************************************************************************* -->
+		<record model="ir.actions.act_window" id="activos_rm_action">
+			<field name="name">Activos</field>
+			<field name="res_model">account.asset.asset</field>
+			<field name="view_type">form</field>
+			<field name="view_form">tree,form</field>
+			<field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Agregar un activo
+                </p>
+            </field>
+		</record>
+		<menuitem id="activos_rm_item" name="Activos" parent="rm_item" action="activos_rm_action"></menuitem>
+
+<!-- ******************************************************************************************************************************* -->
+		<!-- RM Plan de mantenimiento -->
+		<record model="ir.actions.act_window" id="rm_plandemantenimiento_action">
+			<field name="name">Plan de Mantenimiento</field>
+			<field name="res_model">hr.equipment.request</field>
+			<field name="view_type">form</field>
+			<field name="view_form">tree,form</field>
+			<field name="context">{'group_by':'stage_id'}</field>
+		</record>
+		<menuitem id="rm_plandemantenimiento" name="Plan de Mantenimiento" parent="rm_item" action="rm_plandemantenimiento_action"></menuitem>
+
+	</data>
+</openerp>

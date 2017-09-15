@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<record id="numsegsoc_view" model="ir.ui.view">
+			<field name="name">hr.employee_numsegsoc_empleado</field>
+			<field name="model">hr.employee</field>
+			<field name="inherit_id" ref="hr.view_employee_form"></field>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='identification_id']" position="after">
+					<field name="x_numeroseguridadsocial"></field>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</openerp>
