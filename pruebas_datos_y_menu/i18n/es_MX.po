@@ -1,0 +1,459 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* pruebas_datos_y_menu
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-15 15:50+0000\n"
+"PO-Revision-Date: 2017-09-15 15:50+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.qms_accionescorrectivas_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.qms_accionescorrectivas
+msgid "Acciones Correctivas"
+msgstr "Acciones correctivas"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.activos_rm_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.activos_rm_item
+msgid "Activos"
+msgstr "Activos"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,help:pruebas_datos_y_menu.activos_rm_action
+msgid "Agregar un activo"
+msgstr "Agregar un activo"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,help:pruebas_datos_y_menu.evaluacion_proveedores_action
+msgid "Agregar una evaluación para los proveedores"
+msgstr "Agregar una evaluación para los proveedores"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,help:pruebas_datos_y_menu.compras_rfinancieros_action
+msgid "Agregar una nueva orden de compra"
+msgstr "Agregar una nueva orden de compra"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,help:pruebas_datos_y_menu.planeacionpresupuesto_rfinancieros_action
+msgid "Al mantener un registro de dónde va su dinero, puede ser menos propenso a gastar en exceso, y más probabilidades de cumplir con sus metas financieras. El pronóstico es un presupuesto detallando los ingresos esperados por cuenta analítica y vigila su evolución a partir de los datos reales liberados durante ese período."
+msgstr "Al mantener un registro de dónde va su dinero, puede ser menos propenso a gastar en exceso, y más probabilidades de cumplir con sus metas financieras. El pronóstico es un presupuesto detallando los ingresos esperados por cuenta analítica y vigila su evolución a partir de los datos reales liberados durante ese período."
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.qms_auditorias
+msgid "Auditorias"
+msgstr "Auditorias"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.progauditorias_qms_item
+msgid "Auditorias Internas"
+msgstr "Auditorias internas"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_url,name:pruebas_datos_y_menu.organigrama_indexol_action
+msgid "Building Page"
+msgstr "Building Page"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.capacitacion_rh_item
+msgid "Capacitación interna"
+msgstr "Capacitación interna"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,help:pruebas_datos_y_menu.planeacionpresupuesto_rfinancieros_action
+msgid "Clic para crear un nuevo prespuesto"
+msgstr "Clic para crear un nuevo prespuesto"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.compras_rfinancieros_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.compras_rfinancieros_item
+msgid "Compras"
+msgstr "Compras"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.qms_controlprocesos_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.controlprocesos_qms
+msgid "Control de procesos"
+msgstr "Control de procesos"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.rescapacitacion_capacitacion_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.rescapacitacion_capacitacion_item
+msgid "Control y resultados de capacitación"
+msgstr "Control y resultados de capacitación"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,help:pruebas_datos_y_menu.puestos_rh_action
+msgid "Crear un puesto"
+msgstr "Crear un puesto"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile_create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.openacademy_capacitacion_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.openacademy_capacitacion_item
+msgid "Cursos de capacitación"
+msgstr "Cursos de capacitación"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.view,arch_db:pruebas_datos_y_menu.company_profile_form_view
+msgid "Datos de la compañia"
+msgstr "Datos de la compañia"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.deteccioncapacitacion_capacitacion_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.necesidadescapacitacion_capacitacion_item
+msgid "Detección de necesidades de capacitación"
+msgstr "Detección de necesidades de capacitación"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile_display_name
+msgid "Display Name"
+msgstr "Mostrar nombre"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.efeccapacitacion_capacitacion_item
+msgid "Efectividad de la Capacitación"
+msgstr "Efectividad de la capacitación"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.evaluaciones_list_action
+msgid "Efectividad de la capacitación "
+msgstr "Efectividad de la capacitación "
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.empleados_rh_item
+msgid "Empleados"
+msgstr "Empleados"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.climalaboral_clencuesta
+msgid "Encuesta"
+msgstr "Encuesta"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.encclimalaboral_climalaboral_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.encclimalaboral_item
+msgid "Encuesta de clima laboral"
+msgstr "Encuesta de clima laboral"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.evaluacion_proveedores_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.evaluacion_proveedores_item
+msgid "Evaluaciones de proveedores"
+msgstr "Evaluaciones de proveedores"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.evalauditinternos_qms_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.evalauditinternos_qms_item
+msgid "Evaluación de auditores internos"
+msgstr "Evaluación de auditores internos"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.evalcapacitadores_capacitacion_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.evalcapacitadores_capacitacion_item
+msgid "Evaluación de capacitadores"
+msgstr "Evaluación de capacitadores"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.evaluacion_desempeno_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.desempeno_hr_item
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.evaluacion_desempeno_item
+msgid "Evaluación del desempeño"
+msgstr "Evaluación del desempeño"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.expedientes_hr_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.expedientes_empleados_item
+msgid "Expedientes"
+msgstr "Expedientes"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.qms_gestionderiesgos_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.qms_gestionderiesgos
+msgid "Gestión de riesgos"
+msgstr "Gestión de riesgos"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.conocimiento_capacitacion_list_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.conocimiento_capacitacion_item
+msgid "Gestión del conocimiento"
+msgstr "Gestión del conocimiento"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile_id
+msgid "ID"
+msgstr "ID"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.identidad_pruebas
+msgid "Identidad"
+msgstr "Identidad"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.identidad_pruebas_action
+msgid "Identidad Pruebas"
+msgstr "Identidad pruebas"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.rm_inventario_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.rm_inventario
+msgid "Inventario"
+msgstr "Inventario"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,help:pruebas_datos_y_menu.field_company_profile_x_navintha_mision
+msgid "La misión de la empresa seleccionada"
+msgstr "La misión de la empresa seleccionada"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile___last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile_write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.listado_proveedores_action
+msgid "Lista de proveedores"
+msgstr "Lista de proveedores"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.quejas_qms_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.quejas_qms_item
+msgid "Manejo de quejas"
+msgstr "Manejo de quejas"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.qms_manualcalidad_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.qms_manualcalidad_item
+msgid "Manual de calidad"
+msgstr "Manual de calidad"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile_x_navintha_mision
+msgid "Misión"
+msgstr "Misión"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.qms_noconformidades_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.noconformidades_item
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.noconformidades_qms
+msgid "No conformidades"
+msgstr "No conformidades"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile_name
+#: model:ir.model.fields,help:pruebas_datos_y_menu.field_company_profile_name
+msgid "Nombre de la empresa"
+msgstr "Nombre de la empresa"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile_x_navintha_objetivosdecalidad
+#: model:ir.model.fields,help:pruebas_datos_y_menu.field_company_profile_x_navintha_objetivosdecalidad
+msgid "Objetivos de calidad"
+msgstr "Objetivos de calidad"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.organigrama_indexol
+msgid "Organigrama"
+msgstr "Organigrama"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.main_navintha_menu
+msgid "PRUEBAS"
+msgstr "Pruebas"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.perfiles_puestos_item
+msgid "Perfiles de puestos"
+msgstr "Perfiles de puestos"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.permisos_empleados_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.permisos_empleados_item
+msgid "Permisos y ausencias"
+msgstr "Permisos y ausencias"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.rm_plandemantenimiento_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.rm_plandemantenimiento
+msgid "Plan de Mantenimiento"
+msgstr "Plan de Mantenimiento"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.planauditoria_qms_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.planauditoria_qms_item
+msgid "Plan de auditoría"
+msgstr "Plan de auditoría"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.plancapacitacion_capacitacion_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.capacitacion_capacitacion_item
+msgid "Plan de capacitación"
+msgstr "Plan de capacitación"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.planevaluacion_evaluacion_list_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.planevaluacion_evaluacion_item
+msgid "Plan de evaluación del desempeño"
+msgstr "Plan de evaluación del desempeño"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.planeacionpresupuesto_rfinancieros_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.planeacionpresupuesto_rf_item
+msgid "Planeación de presupuesto"
+msgstr "Planeación de presupuesto"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,help:pruebas_datos_y_menu.field_company_profile_x_navintha_politicadecalidad
+msgid "Politica de calidad"
+msgstr "Politica de calidad"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile_x_navintha_politicadecalidad
+msgid "Política de calidad"
+msgstr "Política de calidad"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,help:pruebas_datos_y_menu.qms_controlprocesos_action
+msgid "Procedimientos de su sistema de gestión"
+msgstr "Procedimientos de su sistema de gestión"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.programaauditorias_qms_action
+msgid "Programa de auditorias"
+msgstr "Programa de auditorias"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.listado_proveedores_item
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.main_proveedores_item
+msgid "Proveedores"
+msgstr "Proveedores"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.profile_menu
+msgid "Pruebas"
+msgstr "Pruebas"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.puestos_rh_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.hr_job_item
+msgid "Puestos"
+msgstr "Puestos"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,help:pruebas_datos_y_menu.rm_inventario_action
+msgid "Pulse aquí para añadir."
+msgstr "Pulse aquí para añadir."
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.reclutamiento_empleados_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.reclutamiento_empleados_item
+msgid "Reclutamiento"
+msgstr "Reclutamiento"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.rh_menuitem
+msgid "Recursos Humanos"
+msgstr "Recursos humanos"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.rm_item
+msgid "Recursos Materiales"
+msgstr "Recursos materiales"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.main_rf_item
+msgid "Recursos financieros"
+msgstr "Recursos financieros"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,help:pruebas_datos_y_menu.expedientes_hr_action
+msgid "Registrar un expediente"
+msgstr "Registrar un expediente"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.resevaluacion_desempeno_item
+msgid "Resultado de la evaluación"
+msgstr "Resultado de la evaluación"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.resevaluacion_desempeno_action
+msgid "Resultados de la evaluación"
+msgstr "Resultados de la evaluación"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.qms_revisionesdireccion_action
+msgid "Revisiones de dirección"
+msgstr "Revisiones de dirección"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.qms_revisionesdireccion
+msgid "Revisiones de dirección"
+msgstr "Revisiones de dirección"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,name:pruebas_datos_y_menu.openacademysesiones_capacitacion_action
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.openasesiones_capacitacion_item
+msgid "Sesiones de capacitación"
+msgstr "Sesiones de capacitación"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.ui.menu,name:pruebas_datos_y_menu.qms_item
+msgid "Sistema de gestión"
+msgstr "Sistema de gestión"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.actions.act_window,help:pruebas_datos_y_menu.planeacionpresupuesto_rfinancieros_action
+msgid "Un presupuesto es una previsión de ingresos y / o gastos que su empresa espera por un período en el futuro. Un presupuesto se define en algunas cuentas financieras y / o cuentas analíticas (que puede representar proyectos, departamentos, categorías de productos, etc.)"
+msgstr "Un presupuesto es una previsión de ingresos y / o gastos que su empresa espera por un período en el futuro. Un presupuesto se define en algunas cuentas financieras y / o cuentas analíticas (que puede representar proyectos, departamentos, categorías de productos, etc.)"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile_x_navintha_valores
+msgid "Valores"
+msgstr "Valores"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,help:pruebas_datos_y_menu.field_company_profile_x_navintha_valores
+msgid "Valores base en la empresa"
+msgstr "Valores base en la empresa"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,field_description:pruebas_datos_y_menu.field_company_profile_x_navintha_vision
+msgid "Visión"
+msgstr "Visión"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model.fields,help:pruebas_datos_y_menu.field_company_profile_x_navintha_vision
+msgid "Visión de la empresa seleccionada"
+msgstr "Visión de la empresa seleccionada"
+
+#. module: pruebas_datos_y_menu
+#: model:ir.model,name:pruebas_datos_y_menu.model_company_profile
+msgid "company.profile"
+msgstr "company.profile"

@@ -1,0 +1,121 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* employee_competencias
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-15 16:08+0000\n"
+"PO-Revision-Date: 2017-09-15 16:08+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: employee_competencias
+#: selection:navintha.competenciasempleado,x_navintha_nivelcompetencia:0
+msgid "Alto"
+msgstr "Alto"
+
+#. module: employee_competencias
+#: selection:navintha.competenciasempleado,x_navintha_nivelcompetencia:0
+msgid "Bajo"
+msgstr "Bajo"
+
+#. module: employee_competencias
+#: model:ir.ui.view,arch_db:employee_competencias.navintha_hr_form_view
+msgid "Competencias"
+msgstr "Competencias"
+
+#. module: employee_competencias
+#: model:ir.model.fields,help:employee_competencias.field_hr_employee_x_navintha_comempleado
+msgid "Competencias con las que cuenta el empleado, descripcion y nivel"
+msgstr "Competencias con las que cuenta el empleado, descripcion y nivel"
+
+#. module: employee_competencias
+#: model:ir.model.fields,field_description:employee_competencias.field_hr_employee_x_navintha_comempleado
+msgid "Competencias del empleado"
+msgstr "Competencias del empleado"
+
+#. module: employee_competencias
+#: model:ir.model.fields,field_description:employee_competencias.field_navintha_competenciasempleado_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: employee_competencias
+#: model:ir.model.fields,field_description:employee_competencias.field_navintha_competenciasempleado_create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: employee_competencias
+#: model:ir.model.fields,help:employee_competencias.field_navintha_competenciasempleado_x_navintha_descripcion
+msgid "Describa brevemente la competencia necesaria"
+msgstr "Describa brevemente la competencia necesaria"
+
+#. module: employee_competencias
+#: model:ir.model.fields,field_description:employee_competencias.field_navintha_competenciasempleado_x_navintha_descripcion
+msgid "Descripción corta"
+msgstr "Descripción corta"
+
+#. module: employee_competencias
+#: model:ir.model.fields,field_description:employee_competencias.field_navintha_competenciasempleado_display_name
+msgid "Display Name"
+msgstr "Mostrar nombre"
+
+#. module: employee_competencias
+#: model:ir.model,name:employee_competencias.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: employee_competencias
+#: model:ir.model.fields,field_description:employee_competencias.field_navintha_competenciasempleado_id
+msgid "ID"
+msgstr "ID"
+
+#. module: employee_competencias
+#: model:ir.model.fields,field_description:employee_competencias.field_navintha_competenciasempleado___last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: employee_competencias
+#: model:ir.model.fields,field_description:employee_competencias.field_navintha_competenciasempleado_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: employee_competencias
+#: model:ir.model.fields,field_description:employee_competencias.field_navintha_competenciasempleado_write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: employee_competencias
+#: selection:navintha.competenciasempleado,x_navintha_nivelcompetencia:0
+msgid "Medio"
+msgstr "Medio"
+
+#. module: employee_competencias
+#: model:ir.model.fields,field_description:employee_competencias.field_navintha_competenciasempleado_x_navintha_nivelcompetencia
+msgid "Nivel de la competencia"
+msgstr "Nivel de la competencia"
+
+#. module: employee_competencias
+#: model:ir.model.fields,help:employee_competencias.field_navintha_competenciasempleado_x_navintha_nivelcompetencia
+msgid "Nivel el que se encuentra el trabajador en cuanto a la competencia"
+msgstr "Nivel el que se encuentra el trabajador en cuanto a la competencia"
+
+#. module: employee_competencias
+#: model:ir.model.fields,field_description:employee_competencias.field_navintha_competenciasempleado_name
+msgid "Nombre de la competencia"
+msgstr "Nombre de la competencia"
+
+#. module: employee_competencias
+#: model:ir.model.fields,help:employee_competencias.field_navintha_competenciasempleado_name
+msgid "Son todas aquellas habilidades y aptitudes que tienen las personas que les permiten desarrollar un trabajo de forma exitosa"
+msgstr "Son todas aquellas habilidades y aptitudes que tienen las personas que les permiten desarrollar un trabajo de forma exitosa"
+
+#. module: employee_competencias
+#: model:ir.model,name:employee_competencias.model_navintha_competenciasempleado
+msgid "navintha.competenciasempleado"
+msgstr "navintha.competenciasempleado"

@@ -1,0 +1,187 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* emplo_navintha
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-15 16:10+0000\n"
+"PO-Revision-Date: 2017-09-15 16:10+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_actanacimiento
+msgid "Acta de nacimiento"
+msgstr "Acta de nacimiento"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_antiguedad
+msgid "Antigûedad"
+msgstr "Antigûedad"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_antiguedad
+msgid "Antigüedad"
+msgstr "Antigüedad"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_curp
+msgid "CURP"
+msgstr "CURP"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_cartasrecomendacion
+msgid "Cartas de recomendación"
+msgstr "Cartas de recomendación"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_comprobantedomicilio
+msgid "Comprobante de domicilio"
+msgstr "Comprobante de domicilio"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_comprobanteestudios
+msgid "Comprobante de estudios"
+msgstr "Comprobante de estudios"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_contratoconfidencial
+msgid "Contrato de confidencialidad"
+msgstr "Contrato de confidencialidad"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_contrato
+msgid "Contrato laboral"
+msgstr "Contrato laboral"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_cv
+msgid "Currículum Vitae"
+msgstr "Currículum Vitae"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_cedulaprofesional
+msgid "Cédula profesional"
+msgstr "Cédula profesional"
+
+#. module: emplo_navintha
+#: model:ir.ui.view,arch_db:emplo_navintha.emplo_view
+msgid "Documentación"
+msgstr "Documentación"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_rfc
+msgid "El empleado tiene RFC"
+msgstr "El empleado tiene RFC"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_contratoconfidencial
+msgid "El empleado tiene contrato de confidencialidad"
+msgstr "El empleado tiene contrato de confidencialidad"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_contrato
+msgid "El empleado tiene contrato laboral"
+msgstr "El empleado tiene contrato laboral"
+
+#. module: emplo_navintha
+#: model:ir.model,name:emplo_navintha.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_evaluacion
+msgid "Evaluación"
+msgstr "Evaluación"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_contratacion
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_contratacion
+msgid "Fecha de contratación"
+msgstr "Fecha de contratación"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_ine
+msgid "INE"
+msgstr "INE"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_numeroseguridadsocial
+msgid "Nº de seguridad social"
+msgstr "Nº de seguridad social"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_numempleado
+msgid "Número de control del empleado"
+msgstr "Número de control del empleado"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_numempleado
+msgid "Número de empleado"
+msgstr "Número de empleado"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_numeroseguridadsocial
+msgid "Número de seguridad social del empleado"
+msgstr "Nº de seguridad social del empleado"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_observaciones
+msgid "Observaciones"
+msgstr "Observaciones"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_observaciones
+msgid "Observaciones en el empleado"
+msgstr "Observaciones en el empleado"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_perfilacademico
+msgid "Perfil académico"
+msgstr "Perfil académico"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_navintha_documentos_rfc
+msgid "RFC"
+msgstr "RFC"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_evaluacion
+msgid "Si al empleado se le ha evaluado marque la casilla"
+msgstr "Si al empleado se le ha evaluado marque la casilla"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_cartasrecomendacion
+msgid "Si el empleado presenta cartas de recomendación marque la casilla"
+msgstr "Si el empleado presenta cartas de recomendación marque la casilla"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_actanacimiento
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_comprobantedomicilio
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_comprobanteestudios
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_curp
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_cv
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_ine
+msgid "Si el empleado presentó este documento marque la casilla"
+msgstr "Si el empleado presentó este documento marque la casilla"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,help:emplo_navintha.field_hr_employee_x_navintha_documentos_cedulaprofesional
+msgid "Si el empleado tiene cedula profesional marque la casilla"
+msgstr "Si el empleado tiene cedula profesional marque la casilla"
+
+#. module: emplo_navintha
+#: model:ir.model.fields,field_description:emplo_navintha.field_hr_employee_x_fechaactual
+msgid "X fechaactual"
+msgstr "X fechaactual"
+
+#. module: emplo_navintha
+#: model:ir.ui.view,arch_db:emplo_navintha.emplo_view
+msgid "dias"
+msgstr "días"

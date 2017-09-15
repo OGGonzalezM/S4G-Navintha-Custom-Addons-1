@@ -1,0 +1,704 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* navintha_rh
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-15 15:36+0000\n"
+"PO-Revision-Date: 2017-09-15 15:36+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: navintha_rh
+#: selection:hr.job,x_navintha_edad:0
+msgid "20 - 25 Años"
+msgstr "20 - 25 Años"
+
+#. module: navintha_rh
+#: selection:hr.job,x_navintha_edad:0
+msgid "25 - 30 Años"
+msgstr "25 - 30 Años"
+
+#. module: navintha_rh
+#: selection:hr.job,x_navintha_edad:0
+msgid "30 - 35 Años"
+msgstr "30 - 35 Años"
+
+#. module: navintha_rh
+#: selection:hr.job,x_navintha_edad:0
+msgid "35 - 40 Años"
+msgstr "35 - 40 Años"
+
+#. module: navintha_rh
+#: selection:hr.job,x_navintha_edad:0
+msgid "40 - 45 Años"
+msgstr "40 - 45 Años"
+
+#. module: navintha_rh
+#: selection:hr.job,x_navintha_edad:0
+msgid "45 - 50 Años"
+msgstr "45 - 50 Años"
+
+#. module: navintha_rh
+#: selection:hr.job,x_navintha_edad:0
+msgid "50 - 55 Años"
+msgstr "50 - 55 Años"
+
+#. module: navintha_rh
+#: selection:hr.job,x_navintha_edad:0
+msgid "55 - 60 Años"
+msgstr "55 - 60 Años"
+
+#. module: navintha_rh
+#: selection:hr.job,x_navintha_edad:0
+msgid "60 - 65 Años"
+msgstr "60 - 65 Años"
+
+#. module: navintha_rh
+#: selection:hr.job,x_navintha_edad:0
+msgid "65 - 70 Años"
+msgstr "65 - 70 Años"
+
+#. module: navintha_rh
+#: selection:navintha.responsabilidades,x_navintha_resfrecuencia:0
+msgid "Anual"
+msgstr "Anual"
+
+#. module: navintha_rh
+#: selection:navintha.responsabilidades,x_navintha_resfrecuencia:0
+msgid "Cada dos meses"
+msgstr "Bimestral"
+
+#. module: navintha_rh
+#: selection:navintha.responsabilidades,x_navintha_resfrecuencia:0
+msgid "Cada dos semanas"
+msgstr "Cada dos semanas"
+
+#. module: navintha_rh
+#: selection:hr.employee,estadocivil:0
+msgid "Casado(a)"
+msgstr "Casado(a)"
+
+#. module: navintha_rh
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Competencias"
+msgstr "Competencias"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_listadocompetencias
+msgid "Competencias más destacables del empleado, ejemplos: trabajo en equipo, trabajo bajo presión,  comunicaión efectiva."
+msgstr "Competencias más destacables del empleado, ejemplos: trabajo en equipo, trabajo bajo presión,  comunicaión efectiva"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_skills
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_skills
+msgid "Competencias necesarias"
+msgstr "Competencias necesarias"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_competenciastecnicas
+msgid "Competencias técnicas"
+msgstr "Competencias técnicas"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_condicionesdeltrabajo
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_condicionesdeltrabajo
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Condiciones del trabajo"
+msgstr "Condiciones del trabajo"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_equipoasignado_create_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_escolaridad_create_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_create_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_indicadorespuesto_create_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_responsabilidades_create_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_competencias_create_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relacionesinternas_create_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relexternas_create_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_responsabilidades_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_equipoasignado_create_date
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_escolaridad_create_date
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_create_date
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_indicadorespuesto_create_date
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_responsabilidades_create_date
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_competencias_create_date
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relacionesinternas_create_date
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relexternas_create_date
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_responsabilidades_create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: navintha_rh
+#: model:ir.actions.act_window,name:navintha_rh.empleados_deparmanentos_groupby
+msgid "Departamentos"
+msgstr "Departamentos"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_navintha_competencias_x_navintha_descripcioncompetencia
+msgid "Describa brevemente la competencia necesaria"
+msgstr "Describa brevemente la competencia necesaría"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_responsabilidades_x_navintha_respdescripcion
+#: model:ir.model.fields,help:navintha_rh.field_navintha_responsabilidades_x_navintha_respdescripcion
+msgid "Describa brevemente la responsabilidad"
+msgstr "Describa brevemente la responsabilidad"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_estudios_descripcion
+msgid "Descripcion"
+msgstr "Descripción"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_competencias_x_navintha_descripcioncompetencia
+msgid "Descripción corta"
+msgstr "Descripción corta"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_estudios_descripcion
+msgid "Descripción de estudios"
+msgstr "Descripción de estudios"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_responsabilidades_name
+#: model:ir.model.fields,help:navintha_rh.field_hr_responsabilidades_name
+msgid "Descripción del puesto"
+msgstr "Descripción del puesto"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_employee_fam_address_mother
+msgid "Dirección de la madre del empleado"
+msgstr "Dirección de la madre del empleado"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_employee_fam_address_mother
+msgid "Dirección de la madre"
+msgstr "Dirección de la madre"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_employee_fam_address_father
+msgid "Dirección del padre del empleado"
+msgstr "Dirección del padre del empleado"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_employee_fam_address_father
+msgid "Dirección del padre"
+msgstr "Dirección del padre"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_equipoasignado_display_name
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_escolaridad_display_name
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_display_name
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_indicadorespuesto_display_name
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_responsabilidades_display_name
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_competencias_display_name
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relacionesinternas_display_name
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relexternas_display_name
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_responsabilidades_display_name
+msgid "Display Name"
+msgstr "Mostrar nombre"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_disponibilidadcambioresidencia
+msgid "Disponibilidad de cambio de residencia"
+msgstr "Disponibilidad de cambio de residencia"
+
+#. module: navintha_rh
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Disponibilidad para cambio de residencia"
+msgstr "Disponibilidad para cambio de residencia"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_disponibilidadviajar
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Disponibilidad para viajar"
+msgstr "Disponibilidad para viajar"
+
+#. module: navintha_rh
+#: selection:hr.employee,estadocivil:0
+msgid "Divorciado(a)"
+msgstr "Divorciado(a)"
+
+#. module: navintha_rh
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Edad"
+msgstr "Edad"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_responsabilidades
+msgid "Elija o crea la responsabilidad y la frecuencia de su realización"
+msgstr "Elija o crea la responsabilidad y la frecuencia de su realización"
+
+#. module: navintha_rh
+#: model:ir.model,name:navintha_rh.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: navintha_rh
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Encuestas del puesto"
+msgstr "Encuestas del puesto"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_equipoasignado_name
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_posibleequipo_navintha
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Equipo asignable"
+msgstr "Equipo asignable"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_posibleequipo_navintha
+msgid "Equipo asignable para un puesto"
+msgstr "Equipo asignable para un puesto"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_equipoasignado_name
+msgid "Equipo asignado"
+msgstr "Equipo asignado"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_escolaridad_name
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_escolaridad
+msgid "Escolaridad"
+msgstr "Escolaridad"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_escolaridad_name
+msgid "Escolaridad del empleado"
+msgstr "Escolaridad del empleado"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_competenciastecnicas
+msgid "Especialidad"
+msgstr "Especialidad"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_employee_estadocivil
+#: model:ir.model.fields,help:navintha_rh.field_hr_employee_estadocivil
+msgid "Estado civil"
+msgstr "Estado civil"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_experiencia
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Experiencia"
+msgstr "Experiencia"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_fechadeaprovacion
+msgid "Fecha de aprobación"
+msgstr "Fecha de aprobación"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_fechadeelaboracion
+msgid "Fecha de elaborción"
+msgstr "Fecha de elaborción"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_fechadeaprovacion
+msgid "Fecha de aprobación"
+msgstr "Fecha de aprobación"
+
+#. module: navintha_rh
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Fecha de aprovación"
+msgstr "Fecha de aprovación"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_fechadeelaboracion
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Fecha de elaboración"
+msgstr "Fecha de elaboración"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_estudios_fechainicio
+msgid "Fecha de inicio"
+msgstr "Fecha de inicio"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_estudios_fechainicio
+msgid "Fecha de inicio del estudio"
+msgstr "Fecha de inicio del estudio"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_estudios_fechafin
+msgid "Fecha fin"
+msgstr "Fecha fin"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_estudios_fechafin
+msgid "Fecha fin del estudio"
+msgstr "Fecha fin del estudio"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_responsabilidades_x_frecuenciaderesponsabilidades
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_responsabilidades_x_navintha_resfrecuencia
+#: model:ir.model.fields,help:navintha_rh.field_hr_responsabilidades_x_frecuenciaderesponsabilidades
+msgid "Frecuencia de realización"
+msgstr "Frecuencia de realización"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_escolaridad
+msgid "Grado máximo de estudios"
+msgstr "Grado máximo de estudios"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_per_comp_hab_cap
+msgid "Habilidades"
+msgstr "Habilidades"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_manejodesoftware
+msgid "Habilidades o uso de software, considere Microsoft Word, Power Point y Excel como básicos"
+msgstr "Habilidades o uso de software, considere Microsoft Word, Power Point y Excel como básicos"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_equipoasignado_id
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_escolaridad_id
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_id
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_indicadorespuesto_id
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_responsabilidades_id
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_competencias_id
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relacionesinternas_id
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relexternas_id
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_responsabilidades_id
+msgid "ID"
+msgstr "ID"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_idiomas
+msgid "Idiomas"
+msgstr "Idiomas"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_indicadorespuesto_name
+msgid "Indicador"
+msgstr "Indicador"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_indicadorespuesto
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_indicadorespuesto
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Indicadores del puesto"
+msgstr "Indicadores del puesto"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_institucion
+#: model:ir.model.fields,help:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_institucion
+msgid "Institución"
+msgstr "Institución"
+
+#. module: navintha_rh
+#: model:ir.model,name:navintha_rh.model_hr_job
+msgid "Job Position"
+msgstr "Cargo"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_equipoasignado___last_update
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_escolaridad___last_update
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones___last_update
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_indicadorespuesto___last_update
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_responsabilidades___last_update
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_competencias___last_update
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relacionesinternas___last_update
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relexternas___last_update
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_responsabilidades___last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_equipoasignado_write_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_escolaridad_write_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_write_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_indicadorespuesto_write_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_responsabilidades_write_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_competencias_write_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relacionesinternas_write_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relexternas_write_uid
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_responsabilidades_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_equipoasignado_write_date
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_escolaridad_write_date
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_write_date
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_indicadorespuesto_write_date
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_responsabilidades_write_date
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_competencias_write_date
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relacionesinternas_write_date
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relexternas_write_date
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_responsabilidades_write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_ltd_desicion
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_ltd_desicion
+msgid "Libertad para toma de desiciones"
+msgstr "Libertad para toma de desiciones"
+
+#. module: navintha_rh
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Libertad para tomar desiciones"
+msgstr "Libertad para tomar desiciones"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_listadocompetencias
+msgid "Listado de competencias"
+msgstr "Listado de competencias"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_manejomaquinariaequipo
+msgid "Manejo de maquinaria y/o equipo"
+msgstr "Manejo de maquinaria y/o equipo"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_manejodesoftware
+msgid "Manejo de software"
+msgstr "Manejo de software"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_manejomaquinariaequipo
+msgid "Manejos de los equipos"
+msgstr "Manejos de los equipos"
+
+#. module: navintha_rh
+#: selection:navintha.responsabilidades,x_navintha_resfrecuencia:0
+msgid "Mensualmente"
+msgstr "Mensualmente"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_nivel
+#: model:ir.model.fields,help:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_nivel
+msgid "Nivel"
+msgstr "Nivel"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_estudios_name
+msgid "Nombre"
+msgstr "Nombre"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_competencias_name
+msgid "Nombre de la competencia"
+msgstr "Nombre de la competencia"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_responsabilidades_name
+#: model:ir.model.fields,help:navintha_rh.field_navintha_responsabilidades_name
+msgid "Nombre de la responsabilidad"
+msgstr "Nombre de la responsabilidad"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_indicadorespuesto_name
+msgid "Nombre del indicador"
+msgstr "Nombre del indicador"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relexternas_name
+msgid "Nombre del puesto"
+msgstr "Nombre del puesto"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_navintha_relexternas_name
+msgid "Nombre del puesto relacionado"
+msgstr "Nombre del puesto relacionado"
+
+#. module: navintha_rh
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Perfil del puesto"
+msgstr "Perfil del puesto"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_per_comp_hab_cap
+msgid "Perfiles, competencias, habilidades y capacidades requeridas"
+msgstr "Perfiles, competencias, habilidades y capacidades requeridas"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_estudios_personal
+#: model:ir.model.fields,help:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_estudios_personal
+msgid "Personal"
+msgstr "Personal"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_plantillaminimanecesaria
+msgid "Plantilla minima necesaria"
+msgstr "Plantilla mínima necesaria"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_propositodelpuesto
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_propositodelpuesto
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Propósito del puesto"
+msgstr "Propósito del puesto"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_disponibilidadviajar
+msgid "Puede viajar"
+msgstr "Puede viajar"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relacionesinternas_name
+msgid "Puesto relacionado"
+msgstr "Puesto relacionado"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_idiomas
+msgid "Que idiomas domina el empleado, no cuente español"
+msgstr "Que idiomas domina el empleado, no cuente español"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_edad
+msgid "Rango de edades"
+msgstr "Rango de edades"
+
+#. module: navintha_rh
+#: selection:navintha.responsabilidades,x_navintha_resfrecuencia:0
+msgid "Realizar a diario"
+msgstr "Realizar a diario"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_relacionesinternas
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Relaciones del puesto"
+msgstr "Relaciones del puesto"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_relacionesexternas
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_relacionesexternas
+msgid "Relaciones externas con otros puestos"
+msgstr "Relaciones externas con otros puestos"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relacionesinternas_relacion
+#: model:ir.model.fields,field_description:navintha_rh.field_navintha_relexternas_relacionext
+msgid "Relación del puesto"
+msgstr "Relación del puesto"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_navintha_relexternas_relacionext
+msgid "Relación externa del puesto"
+msgstr "Relación externa del puesto"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_responsabilidades
+#: model:ir.ui.view,arch_db:navintha_rh.navintha_hr_form_view
+msgid "Responsabilidades"
+msgstr "Responsabilidades"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_navintha_responsabilidades_x_navintha_resfrecuencia
+msgid "Seleccione cada que tiempo se deberá realizar la tarea"
+msgstr "Seleccione cada que tiempo se deberá realizar la tarea"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_edad
+msgid "Seleccione el rango de edades en la que se encuentra"
+msgstr "Seleccione el rango de edades en la que se encuentra"
+
+#. module: navintha_rh
+#: selection:navintha.responsabilidades,x_navintha_resfrecuencia:0
+msgid "Semanalmente"
+msgstr "Semanalmente"
+
+#. module: navintha_rh
+#: selection:navintha.responsabilidades,x_navintha_resfrecuencia:0
+msgid "Semestral"
+msgstr "Semestral"
+
+#. module: navintha_rh
+#: selection:hr.employee,estadocivil:0
+msgid "Soltero(a)"
+msgstr "Soltero(a)"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_navintha_competencias_name
+msgid "Son todas aquellas habilidades y aptitudes que tienen las personas que les permiten desarrollar un trabajo de forma exitosa"
+msgstr "Son todas aquellas habilidades y aptitudes que tienen las personas que les permiten desarrollar un trabajo de forma exitosa"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_job_x_navintha_experiencia
+msgid "Trabajos previos"
+msgstr "Trabajos previos"
+
+#. module: navintha_rh
+#: selection:navintha.responsabilidades,x_navintha_resfrecuencia:0
+msgid "Trimestral"
+msgstr "Trimestral"
+
+#. module: navintha_rh
+#: selection:hr.employee,estadocivil:0
+msgid "Union libre"
+msgstr "Union libre"
+
+#. module: navintha_rh
+#: selection:hr.employee,estadocivil:0
+msgid "Viudo(a)"
+msgstr "Viudo(a)"
+
+#. module: navintha_rh
+#: model:ir.model.fields,field_description:navintha_rh.field_hr_job_x_navintha_encuestas_puestos
+msgid "X navintha encuestas puestos"
+msgstr "X navintha encuestas puestos"
+
+#. module: navintha_rh
+#: model:ir.model,name:navintha_rh.model_hr_equipoasignado
+msgid "hr.equipoasignado"
+msgstr "hr.equipoasignado"
+
+#. module: navintha_rh
+#: model:ir.model,name:navintha_rh.model_hr_escolaridad
+msgid "hr.escolaridad"
+msgstr "hr.escolaridad"
+
+#. module: navintha_rh
+#: model:ir.model,name:navintha_rh.model_hr_estudios_capacitaciones
+msgid "hr.estudios_capacitaciones"
+msgstr "hr.estudios_capacitaciones"
+
+#. module: navintha_rh
+#: model:ir.model,name:navintha_rh.model_hr_job_indicadorespuesto
+msgid "hr.job_indicadorespuesto"
+msgstr "hr.job_indicadorespuesto"
+
+#. module: navintha_rh
+#: model:ir.model,name:navintha_rh.model_hr_responsabilidades
+msgid "hr.responsabilidades"
+msgstr "hr.responsabilidades"
+
+#. module: navintha_rh
+#: model:ir.model,name:navintha_rh.model_navintha_competencias
+msgid "navintha.competencias"
+msgstr "navintha.competencias"
+
+#. module: navintha_rh
+#: model:ir.model,name:navintha_rh.model_navintha_relacionesinternas
+msgid "navintha.relacionesinternas"
+msgstr "navintha.relacionesinternas"
+
+#. module: navintha_rh
+#: model:ir.model,name:navintha_rh.model_navintha_relexternas
+msgid "navintha.relexternas"
+msgstr "navintha.relexternas"
+
+#. module: navintha_rh
+#: model:ir.model,name:navintha_rh.model_navintha_responsabilidades
+msgid "navintha.responsabilidades"
+msgstr "navintha.responsabilidades"
+
+#. module: navintha_rh
+#: model:ir.model.fields,help:navintha_rh.field_hr_estudios_capacitaciones_x_navintha_estudios_name
+msgid "Nombre de la capacitación"
+msgstr "Nombre de la capacitación"
